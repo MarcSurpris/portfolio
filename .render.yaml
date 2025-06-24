@@ -4,4 +4,6 @@ build:
   - npm run build
 environments:
   - key: NODE_VERSION
-    value: 18.18.0
+    value: 18.18.0  # Use a stable, compatible Node.js version
+  - key: BUN_VERSION
+    value: ""      # Explicitly disable Bun by setting an empty value
